@@ -19,16 +19,27 @@
                     value="fgdark"
                     class="theme-controller toggle" />
             </div>
-            <div class="flex flex-row justify-between border p-8">
-                <div class="flex items-center gap-1">
-                    <img
-                        alt="Anduril"
-                        class="h-10 w-10"
-                        src="https://logo.clearbit.com/anduril.com" />
-                    <h2 class="text-3xl font-normal">Anduril Industries IPO</h2>
+            <div class="flex flex-col gap-8 border p-8">
+                <div class="breadcrumbs text-xs">
+                    <ul>
+                        <li><a>Companies</a></li>
+                        <li>Anduril Industries</li>
+                    </ul>
                 </div>
-                <div class="flex justify-end">
-                    <button class="btn btn-primary h-8 w-20">Buy</button>
+                <div class="flex flex-row justify-between">
+                    <div class="flex items-center gap-1">
+                        <img
+                            alt="Anduril"
+                            class="h-10 w-10"
+                            src="https://logo.clearbit.com/anduril.com" />
+                        <h2 class="text-3xl font-normal">Anduril Industries</h2>
+                    </div>
+                    <div class="flex justify-end">
+                        <button class="btn btn-primary h-8 w-20">Buy</button>
+                    </div>
+                </div>
+                <div class="flex flex-row">
+                    <h3 class="text-2xl">$28.59</h3>
                 </div>
             </div>
         </div>
