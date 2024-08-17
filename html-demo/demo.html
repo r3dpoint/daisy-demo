@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="fglight">
   <head>
     <meta charset="utf-8" />
     <meta
@@ -10,7 +10,34 @@
     <link rel="preload stylesheet" href="style.css" as="style" />
   </head>
   <body>
-    <div class="h-max bg-white p-32">
+    <div class="h-full p-8">
+      <div class="flex flex-col gap-8">
+        <div>
+          <input
+            type="checkbox"
+            value="fgdark"
+            class="theme-controller toggle"
+          />
+        </div>
+        <div class="flex flex-row justify-between border p-8">
+          <div class="flex items-center gap-1">
+            <img
+              alt="Anduril"
+              class="h-10 w-10"
+              src="https://logo.clearbit.com/anduril.com"
+            />
+            <h2 class="text-3xl font-normal">Anduril Industries IPO</h2>
+          </div>
+          <div class="flex justify-end">
+            <button class="btn btn-primary h-8 w-20">Buy</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- <div class="h-max bg-white p-32">
       <div class="flex items-center gap-2 border p-8">
         <img
           alt="Anduril"
@@ -24,6 +51,4 @@
         </button>
         <h1 class="font-bold text-black">Anduril Industries</h1>
       </div>
-    </div>
-  </body>
-</html>
+    </div> -->

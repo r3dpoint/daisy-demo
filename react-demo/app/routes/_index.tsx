@@ -22,14 +22,18 @@ export default function Index() {
               className="theme-controller toggle"
             />
           </div>
-          <div className="flex items-center gap-2 border p-8">
-            <img
-              alt="Anduril"
-              className="h-12 w-12"
-              src="https://logo.clearbit.com/anduril.com"
-            />
-            <button className="btn btn-primary">Button</button>
-            <h1 className="font-bold">Anduril Industries</h1>
+          <div className="flex flex-row justify-between border p-8">
+            <div className="flex items-center gap-1">
+              <img
+                alt="Anduril"
+                className="h-10 w-10"
+                src="https://logo.clearbit.com/anduril.com"
+              />
+              <h2 className="text-3xl font-normal">Anduril Industries IPO</h2>
+            </div>
+            <div className="flex justify-end">
+              <button className="btn btn-primary h-8 w-20">Buy</button>
+            </div>
           </div>
         </div>
       </div>
